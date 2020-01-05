@@ -1,0 +1,2 @@
+# dotNet_CommonHelpeLibrary
+dotNet 平台开发过程中常用的帮助类及工具
