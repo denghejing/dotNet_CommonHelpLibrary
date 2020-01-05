@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using dotNet_CommonHelpLibrary.Models;
 
+
 namespace dotNet_CommonHelpLibrary.Controllers
 {
     public class HomeController : Controller
@@ -20,6 +21,7 @@ namespace dotNet_CommonHelpLibrary.Controllers
 
         public IActionResult Index()
         {
+            
             return View();
         }
 

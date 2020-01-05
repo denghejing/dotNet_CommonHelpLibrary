@@ -8,6 +8,16 @@
           "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.props": {},
           "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.targets": {}
         }
+      },
+      "dotNet_CommonHelper/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/dotNet_CommonHelper.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/dotNet_CommonHelper.dll": {}
+        }
       }
     }
   },
@@ -74,11 +84,17 @@
         "tools/zh-Hant/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
         "tools/zh-Hant/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll"
       ]
+    },
+    "dotNet_CommonHelper/1.0.0": {
+      "type": "project",
+      "path": "../dotNet_CommonHelper/dotNet_CommonHelper.csproj",
+      "msbuildProject": "../dotNet_CommonHelper/dotNet_CommonHelper.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.9.5"
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.9.5",
+      "dotNet_CommonHelper >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -87,9 +103,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GithubProjects\\dotNet_CommonHelpLibrary\\dotNet_CommonHelpLibrary\\dotNet_CommonHelpLibrary\\dotNet_CommonHelpLibrary.csproj",
-      "projectName": "dotNet_CommonHelpLibrary",
-      "projectPath": "D:\\GithubProjects\\dotNet_CommonHelpLibrary\\dotNet_CommonHelpLibrary\\dotNet_CommonHelpLibrary\\dotNet_CommonHelpLibrary.csproj",
+      "projectUniqueName": "D:\\GithubProjects\\dotNet_CommonHelpLibrary\\dotNet_CommonHelpLibrary\\dotNet_CommonHelpLibrary\\dotNet_Web.csproj",
+      "projectName": "dotNet_Web",
+      "projectPath": "D:\\GithubProjects\\dotNet_CommonHelpLibrary\\dotNet_CommonHelpLibrary\\dotNet_CommonHelpLibrary\\dotNet_Web.csproj",
       "packagesPath": "C:\\Users\\Dengh\\.nuget\\packages\\",
       "outputPath": "D:\\GithubProjects\\dotNet_CommonHelpLibrary\\dotNet_CommonHelpLibrary\\dotNet_CommonHelpLibrary\\obj\\",
       "projectStyle": "PackageReference",
@@ -106,7 +122,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\GithubProjects\\dotNet_CommonHelpLibrary\\dotNet_CommonHelpLibrary\\dotNet_CommonHelper\\dotNet_CommonHelper.csproj": {
+              "projectPath": "D:\\GithubProjects\\dotNet_CommonHelpLibrary\\dotNet_CommonHelpLibrary\\dotNet_CommonHelper\\dotNet_CommonHelper.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

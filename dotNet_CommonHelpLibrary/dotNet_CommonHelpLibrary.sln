@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotNet_CommonHelpLibrary", "dotNet_CommonHelpLibrary\dotNet_CommonHelpLibrary.csproj", "{548B87CD-4898-4C79-BA88-4777DCFB7CA5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotNet_Web", "dotNet_CommonHelpLibrary\dotNet_Web.csproj", "{548B87CD-4898-4C79-BA88-4777DCFB7CA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotNet_CommonHelper", "dotNet_CommonHelper\dotNet_CommonHelper.csproj", "{F49DA6E3-F367-49F4-8D14-1F5519C74BFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{548B87CD-4898-4C79-BA88-4777DCFB7CA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{548B87CD-4898-4C79-BA88-4777DCFB7CA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{548B87CD-4898-4C79-BA88-4777DCFB7CA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F49DA6E3-F367-49F4-8D14-1F5519C74BFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F49DA6E3-F367-49F4-8D14-1F5519C74BFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F49DA6E3-F367-49F4-8D14-1F5519C74BFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F49DA6E3-F367-49F4-8D14-1F5519C74BFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
